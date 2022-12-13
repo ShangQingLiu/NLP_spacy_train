@@ -1,9 +1,13 @@
-# NLP_spacy_train
-This is the ML assignment option 1 in NLP of web in University of Hamburg.
+# NLPW ML Assignment
+Author: Shang-Ching Liu, Lijunnan Bai, Xiaoqui Qin
 
-# TODO List
-1. Optimize training, 調整參數 或 pipeline
-2. 加入 validation
-3. 跑完 perl Test script 驗證
-4. Visualization training result
-5. 準備 ppt 講解 code 流程跟最後結果
+# Environment
+conda env create -f environment.yml
+
+# Usage
+python trainining.py --task 1
+python trainining.py --task 2
+python trainining.py --task 3
+
+# Data 
+You can change the train\_data dev\_data and evaluate\_data to perform three tasks
